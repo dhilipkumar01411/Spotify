@@ -1,0 +1,29 @@
+
+
+.app {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: rgb(131, 129, 129);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 53%; /* Adjust as needed */
+    color: black;
+    height: 41%;
+  }
+  
